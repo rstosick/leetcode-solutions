@@ -18,17 +18,17 @@ class Node {
 */
 
 class Solution {
-    private void postorderTraversalRecursive(Node root, List<Integer> output) {
-        if(root==null) return;
-        for(Node x: root.children) {
-            postorderTraversalRecursive(x, output);
-        }
-        output.add(root.val);
+  private void postorderTraversalRecursive(Node root, List<Integer> output) {
+    if (root == null) return;
+    for (Node x : root.children) {
+      postorderTraversalRecursive(x, output);
     }
+    output.add(root.val);
+  }
 
-    public List<Integer> postorder(Node root) {
-        List<Integer> output = new ArrayList<>();
-        postorderTraversalRecursive(root, output);
-        return output;
-    }
+  public List<Integer> postorder(Node root) {
+    List<Integer> output = new ArrayList<>();
+    postorderTraversalRecursive(root, output);
+    return output;
+  }
 }
