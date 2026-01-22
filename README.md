@@ -9,3 +9,5 @@ These solutions represent my own work, and I believe I am free to share them as 
 I believe this falls under “fair use,” but if you have any copyright or IP infringement concerns, please contact me.
 
 Email: first initial + last name at gmail dot com (not posted directly to avoid spam).
+
+:warning: :construction: Heads up: Creating this repo involved a lot of copy-paste work and terminal commands, so some of the file names may be wrong. I'm working on fixing this.
